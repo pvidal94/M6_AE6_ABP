@@ -1,0 +1,29 @@
+﻿# Ignorar archivos y carpetas generados automáticamente por el sistema y Django.
+
+# Entorno Virtual (CRÍTICO)
+venv/
+.venv/
+
+# Archivos de Base de Datos de Desarrollo
+db.sqlite3
+*.sqlite3
+
+# Archivos de caché y compilados
+*.pyc
+__pycache__/
+*.swp
+
+# Archivos Generados por IDEs (VS Code, etc.)
+.vscode/
+
+# Logs y Archivos de Carga de Medios/Estáticos (Development)
+*.log
+/media
+/static
+
+# Configuraciones de Seguridad Local (Si existen)
+local_settings.py
+
+# Archivos de Sistema Operativo
+.DS_Store
+Thumbs.db
